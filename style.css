@@ -1,0 +1,80 @@
+/* Color and fonts */
+body {
+  background-color: rgba(193 191 189 / 33%);
+  color:  rgb(30, 30, 30);
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2 {
+   font-family: "GFS Didot", serif;
+}
+h1 {
+  color: rgb(115, 115, 115);
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+h2 {
+  color: rgb(100, 100, 100);
+  font-weight: lighter;
+  font-size: 24px;
+}
+a {
+  font-family: "GFS Didot", serif;
+  text-decoration: none;
+  color: pink;
+  font-weight: 700;
+}
+a:hover {
+  color: rgb(235, 119, 211);
+}
+
+/* Custom design with class (99% of your design)*/
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+	  background-color: pink;
+	  width: 500px;
+	}
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0,0,0.1);
+  border-radius: 6px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle { 
+   border-radius: 50%;
+   border: 5px solid pink;
+   box-shadow: 0px 5px 5px rgba(0,0,0,0.9);
+}
+.btn-pink {
+  background-color: pink;
+  color: white;
+  padding: 15px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
